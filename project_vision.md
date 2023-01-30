@@ -30,4 +30,9 @@ Dovile's article offers a few suggestions to consider when writing your project 
 
 ## Contracted Grade
 
+
+*Ryan*
+^^^
+**Basically looking to compare certain stats of the top scoring players of one season to their stats of the following season to see if changes in a certain stat will effect others and what stats were the most influential to other stats. Find what stats are uncorelated in following seasons**
+
 For this project, we agree to contract for a { A }.
