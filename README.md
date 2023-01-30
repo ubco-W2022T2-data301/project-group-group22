@@ -8,11 +8,11 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## Describe your topic/interest in about 150-200 words
 
-{Add your stuff here}
+Ricky: I am interested in this dataset because I am a fan of hockey and like to see the statistical aspects of players' performances. I would like to find if there is a corelation between drops and increases in certain statistics for consecutive years for the top NHL players in points. Specific examples of research questions I would like to discover answers to are: Does an increase/decrease in time on ice per game relate to an increase in certain stats like overall points in the season? Do the top players that have a decrease in their offensive stats in a succesive season make up for it with an increase in their defensive stats? How many of the top 250 players in points from the 2017-2018 season managed to make the top 350 players in points for the 2018-2019 season? How many of those players didn't make the top 350 just because they retired?
 
 ## Describe your dataset in about 150-200 words
 
-Ricky: I am interested in this dataset because I am a fan of hockey and like to see the statistical aspects of players' performances. I would like to find if there is a corelation between drops and increases in certain statistics for consecutive years for the top NHL players in points. Specific examples of research questions I would like to discover answers to are: Does an increase/decrease in time on ice per game relate to an increase in certain stats like overall points in the season? Do the top players that have a decrease in their offensive stats in a succesive season make up for it with an increase in their defensive stats? How many of the top 250 players in points from the 2017-2018 season managed to make the top 350 players in points for the 2018-2019 season? How many of those players didn't make the top 350 just because they retired?
+
 
 ## Team Members
 
