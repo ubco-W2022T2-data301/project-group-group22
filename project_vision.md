@@ -1,5 +1,11 @@
 # Project Vision
 
+*Ryan*
+^^^
+**Basically looking to compare certain stats of the top scoring players of one season to their stats of the following season to see if changes in a certain stat will effect others and what stats were the most influential to other stats. Find what stats are uncorelated in following seasons**
+
+We aspire to compare the statistics of top hockey players to uncover correlations in their performance between seasons. As a team, we will create a dashboard that displays these relations in an intuitive and easy to understand format. By the end of the semester, we will share the trends in player performance with our peers with the goal of inspiring the same interest in hockey and data analysis that motivates our team.
+
 Add a vision for what you want your project to look like in the end here... Feel free to remove the everything in this section (remember to leave the "Contracted Grade" section at the end.
 
 You are welcome to update the vision as your project evolves and changes.
@@ -29,10 +35,5 @@ Dovile's article offers a few suggestions to consider when writing your project 
 > 6. **Write about who you are.** The best vision statements are about who you are as a company or team and who you wish to become.
 
 ## Contracted Grade
-
-
-*Ryan*
-^^^
-**Basically looking to compare certain stats of the top scoring players of one season to their stats of the following season to see if changes in a certain stat will effect others and what stats were the most influential to other stats. Find what stats are uncorelated in following seasons**
 
 For this project, we agree to contract for a { A }.
