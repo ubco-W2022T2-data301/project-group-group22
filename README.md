@@ -11,7 +11,7 @@ Ricky: I am interested in this dataset because I am a fan of hockey and like to 
 
 Renat: I find the topic of analysing NHL player performance of personal interest, as I am a big fan of hockey. I used to play thee sport as a kid, and watch NHL games. The analysis of players' statistical data in one year and evaluation the correlation between their performance of the following year seems like it would bring further understanding of hockey, and I am excited to see what the results will show. For the data set, we used a website that provides royalty-free NHL statistics under Open License. After performing some edits on the data by using a Python code which removes colums in the statistics which are not of interest, as well as players' data entries which are not in both the 2017 and 2018 data sets, we got usable data of player's performance in 2017, and the following season. I am interested to see how each performance statstic of 2017 affects the player's goals scored and the ranking in 2018, and whether one has a larger effect than the others. 
 
-Ryan:
+Ryan: While I don’t have a direct personal connection to hockey, I find the statistical study of sports incredibly intriguing. Take a player or teams statistics and being able to predict outcomes not only can lead to team improvements but can also have financial implications outside of the game. If our group could find a correlation in the data that wasn’t previously discovered it could lead to outcomes outside the scope of this course. The analysis NHL players is none the less an interesting area of data science and I’m intrigued to learn more. Looking at the trends of the 2017-2018 season players and comparing them to the 2018-2019 season, there should be trends that lead to a player scoring more goals. An increase in the number of goals could be from their offensive and defensive stats, time on the ice, shots attempted, etc. Deciphering the data to find the correlation is what draws me to this project and topic.
 
 
 ## Describe your dataset in about 150-200 words
@@ -30,13 +30,11 @@ The methodology for obtaining the data was to:
 
 - Ricky: I grew up playing high level hockey and was always interested in the numbers aspect of the game to really paint a picture of players in my head so this data analysis seems very exciting to me!
 - Renat: I am interessted to learn the correlation between players' stats and their perofrmance in following year. 
-- Ryan: one sentence about you!
+- Ryan: I dabble in programming and statistical analysis and I’m ready to find new trends and hidden patterns.
 
 ## Images
 
 {You should use this area to add a screenshot of an interesting plot, or of your dashboard}
-
-*Ryan*
 
 <img src ="images/test.png" width="100px">
 
