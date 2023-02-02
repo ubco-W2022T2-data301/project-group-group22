@@ -16,7 +16,15 @@ Ryan:
 
 ## Describe your dataset in about 150-200 words
 
-*Ryan*
+The project is based on a data set containing the statistics for top 225 NHL players in 2017-18 season and their statistics for the following 2018-19 season. The project aims to look at the relationship between the data such as time on ice, assists, etc. of the 17-18 season, and correlate them to the number of goals scored in the following season (or their ranking in the following season).
+The data for the project was obtained from https://www.quanthockey.com/. Data is under Open License, royalty-free. 
+
+The methodology for obtaining the data was to:
+1. Firstly, retrieve the statistics for top 250 players of the 2017-18 players based on the number of points. This data set is called ‘NHL2017’. 
+2. Obtain the statistics for the top 350 players in the following season, as the majority of the top 250 players will still be in the top 350 next year. This data set is called ‘NHL2018’. 
+3. Remove the player entries that are not in both data sets and form two new data sets ‘Top250_2017’ and ‘Top250_2018’. This way we obtain two data sets with statistics of players’ performance for two consecutive years. 
+4. Drop the columns in both datasets that are not of interest.
+
 
 ## Team Members
 
