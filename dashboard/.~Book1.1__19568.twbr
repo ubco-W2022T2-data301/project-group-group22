@@ -1,0 +1,2489 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.ExplainData_AuthorControls.true...ExplainData_AuthorControls />
+    <_.fcp.ExplainData_NullValueExplanation.true...ExplainData_NullValueExplanation />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='bothYears.csv (Multiple Connections)' inline='true' name='federated.15q5zo207lamxk102bvtm0sh3xnv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bothYears' name='textscan.14b8xzd0cl7l651clkd4d1b5jvac'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='bothYears.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='defense' name='textscan.0g98p4p1frgc9716nsm8d04d56d3'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='defense.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='offense' name='textscan.1e4nz0e0n0g9ef17mr0w60eqko0d'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='offense.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='offVSdef' name='textscan.08tnxdx0f2hebm16avi960vvlb0q'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='offVSdef.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='TOIvsP' name='textscan.1sbjuex1oko8mi171ub231nrlu0j'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='TOIvsP.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.14b8xzd0cl7l651clkd4d1b5jvac' name='bothYears.csv' table='[bothYears#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Rk' ordinal='1' />
+            <column datatype='string' name='Name' ordinal='2' />
+            <column datatype='integer' name='GP' ordinal='3' />
+            <column datatype='integer' name='G' ordinal='4' />
+            <column datatype='integer' name='A' ordinal='5' />
+            <column datatype='integer' name='P' ordinal='6' />
+            <column datatype='integer' name='PIM' ordinal='7' />
+            <column datatype='integer' name='+/-' ordinal='8' />
+            <column datatype='real' name='TOI' ordinal='9' />
+            <column datatype='integer' name='PPG' ordinal='10' />
+            <column datatype='integer' name='GWG' ordinal='11' />
+            <column datatype='integer' name='PPP' ordinal='12' />
+            <column datatype='real' name='G/GP' ordinal='13' />
+            <column datatype='real' name='A/GP' ordinal='14' />
+            <column datatype='real' name='P/GP' ordinal='15' />
+            <column datatype='integer' name='SHOTS' ordinal='16' />
+            <column datatype='integer' name='HITS' ordinal='17' />
+            <column datatype='integer' name='BS' ordinal='18' />
+            <column datatype='integer' name='Year' ordinal='19' />
+            <column datatype='real' name='SH%' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.14b8xzd0cl7l651clkd4d1b5jvac' name='bothYears.csv' table='[bothYears#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Rk' ordinal='1' />
+            <column datatype='string' name='Name' ordinal='2' />
+            <column datatype='integer' name='GP' ordinal='3' />
+            <column datatype='integer' name='G' ordinal='4' />
+            <column datatype='integer' name='A' ordinal='5' />
+            <column datatype='integer' name='P' ordinal='6' />
+            <column datatype='integer' name='PIM' ordinal='7' />
+            <column datatype='integer' name='+/-' ordinal='8' />
+            <column datatype='real' name='TOI' ordinal='9' />
+            <column datatype='integer' name='PPG' ordinal='10' />
+            <column datatype='integer' name='GWG' ordinal='11' />
+            <column datatype='integer' name='PPP' ordinal='12' />
+            <column datatype='real' name='G/GP' ordinal='13' />
+            <column datatype='real' name='A/GP' ordinal='14' />
+            <column datatype='real' name='P/GP' ordinal='15' />
+            <column datatype='integer' name='SHOTS' ordinal='16' />
+            <column datatype='integer' name='HITS' ordinal='17' />
+            <column datatype='integer' name='BS' ordinal='18' />
+            <column datatype='integer' name='Year' ordinal='19' />
+            <column datatype='real' name='SH%' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rk]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>Rk</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GP]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>GP</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>G</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>A</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[P]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>P</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PIM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PIM]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>PIM</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>+/-</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[+/-]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>+/-</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOI]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>TOI</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PPG]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>PPG</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GWG</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GWG]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>GWG</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PPP]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>PPP</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G/GP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[G/GP]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>G/GP</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A/GP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[A/GP]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>A/GP</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P/GP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[P/GP]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>P/GP</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SHOTS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SHOTS]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>SHOTS</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HITS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HITS]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>HITS</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BS]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>BS</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SH%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SH%]</local-name>
+            <parent-name>[bothYears.csv]</parent-name>
+            <remote-alias>SH%</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='A/Gp' datatype='real' name='[A/GP]' role='measure' type='quantitative' />
+      <column caption='Alphabetical Index' datatype='integer' name='[F1]' role='measure' type='quantitative' />
+      <column caption='G/Gp' datatype='real' name='[G/GP]' role='measure' type='quantitative' />
+      <column caption='Hits' datatype='integer' name='[HITS]' role='measure' type='quantitative' />
+      <column caption='P/Gp' datatype='real' name='[P/GP]' role='measure' type='quantitative' />
+      <column caption='Shots' datatype='integer' name='[SHOTS]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='bothYears.csv' datatype='table' name='[__tableau_internal_object_id__].[bothYears.csv_241F426F85214EA7B0AA8817D01B4747]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='bothYears.csv' id='bothYears.csv_241F426F85214EA7B0AA8817D01B4747'>
+            <properties context=''>
+              <relation connection='textscan.14b8xzd0cl7l651clkd4d1b5jvac' name='bothYears.csv' table='[bothYears#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Rk' ordinal='1' />
+                  <column datatype='string' name='Name' ordinal='2' />
+                  <column datatype='integer' name='GP' ordinal='3' />
+                  <column datatype='integer' name='G' ordinal='4' />
+                  <column datatype='integer' name='A' ordinal='5' />
+                  <column datatype='integer' name='P' ordinal='6' />
+                  <column datatype='integer' name='PIM' ordinal='7' />
+                  <column datatype='integer' name='+/-' ordinal='8' />
+                  <column datatype='real' name='TOI' ordinal='9' />
+                  <column datatype='integer' name='PPG' ordinal='10' />
+                  <column datatype='integer' name='GWG' ordinal='11' />
+                  <column datatype='integer' name='PPP' ordinal='12' />
+                  <column datatype='real' name='G/GP' ordinal='13' />
+                  <column datatype='real' name='A/GP' ordinal='14' />
+                  <column datatype='real' name='P/GP' ordinal='15' />
+                  <column datatype='integer' name='SHOTS' ordinal='16' />
+                  <column datatype='integer' name='HITS' ordinal='17' />
+                  <column datatype='integer' name='BS' ordinal='18' />
+                  <column datatype='integer' name='Year' ordinal='19' />
+                  <column datatype='real' name='SH%' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='offVSdef' inline='true' name='federated.1ddsdjz1634vvp15gy40m0v5rzr4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='offVSdef' name='textscan.1odxoq714bf2bk13qfjzo1s86d3c'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='offVSdef.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1odxoq714bf2bk13qfjzo1s86d3c' name='offVSdef.csv' table='[offVSdef#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='G_Diff' ordinal='1' />
+            <column datatype='integer' name='A_Diff' ordinal='2' />
+            <column datatype='integer' name='P_Diff' ordinal='3' />
+            <column datatype='integer' name='PIM_Diff' ordinal='4' />
+            <column datatype='integer' name='HITS_Diff' ordinal='5' />
+            <column datatype='integer' name='+/-_Diff' ordinal='6' />
+            <column datatype='integer' name='BS_Diff' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1odxoq714bf2bk13qfjzo1s86d3c' name='offVSdef.csv' table='[offVSdef#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='G_Diff' ordinal='1' />
+            <column datatype='integer' name='A_Diff' ordinal='2' />
+            <column datatype='integer' name='P_Diff' ordinal='3' />
+            <column datatype='integer' name='PIM_Diff' ordinal='4' />
+            <column datatype='integer' name='HITS_Diff' ordinal='5' />
+            <column datatype='integer' name='+/-_Diff' ordinal='6' />
+            <column datatype='integer' name='BS_Diff' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[offVSdef.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[offVSdef.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdef.csv_18469BB811194376A1BC045F804A5BEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G_Diff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G_Diff]</local-name>
+            <parent-name>[offVSdef.csv]</parent-name>
+            <remote-alias>G_Diff</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdef.csv_18469BB811194376A1BC045F804A5BEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A_Diff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A_Diff]</local-name>
+            <parent-name>[offVSdef.csv]</parent-name>
+            <remote-alias>A_Diff</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdef.csv_18469BB811194376A1BC045F804A5BEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P_Diff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[P_Diff]</local-name>
+            <parent-name>[offVSdef.csv]</parent-name>
+            <remote-alias>P_Diff</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdef.csv_18469BB811194376A1BC045F804A5BEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PIM_Diff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PIM_Diff]</local-name>
+            <parent-name>[offVSdef.csv]</parent-name>
+            <remote-alias>PIM_Diff</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdef.csv_18469BB811194376A1BC045F804A5BEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HITS_Diff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HITS_Diff]</local-name>
+            <parent-name>[offVSdef.csv]</parent-name>
+            <remote-alias>HITS_Diff</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdef.csv_18469BB811194376A1BC045F804A5BEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>+/-_Diff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[+/-_Diff]</local-name>
+            <parent-name>[offVSdef.csv]</parent-name>
+            <remote-alias>+/-_Diff</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdef.csv_18469BB811194376A1BC045F804A5BEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BS_Diff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BS_Diff]</local-name>
+            <parent-name>[offVSdef.csv]</parent-name>
+            <remote-alias>BS_Diff</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdef.csv_18469BB811194376A1BC045F804A5BEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='+/- Diff' datatype='integer' name='[+/-_Diff]' role='measure' type='quantitative' />
+      <column caption='A Diff' datatype='integer' name='[A_Diff]' role='measure' type='quantitative' />
+      <column caption='BS Diff' datatype='integer' name='[BS_Diff]' role='measure' type='quantitative' />
+      <column caption='Alphabetical Index' datatype='integer' name='[F1]' role='measure' type='quantitative' />
+      <column caption='G Diff' datatype='integer' name='[G_Diff]' role='measure' type='quantitative' />
+      <column caption='HITS Diff' datatype='integer' name='[HITS_Diff]' role='measure' type='quantitative' />
+      <column caption='PIM Diff' datatype='integer' name='[PIM_Diff]' role='measure' type='quantitative' />
+      <column caption='P Diff' datatype='integer' name='[P_Diff]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='offVSdef.csv' datatype='table' name='[__tableau_internal_object_id__].[offVSdef.csv_18469BB811194376A1BC045F804A5BEA]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='225' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='offVSdef.csv' id='offVSdef.csv_18469BB811194376A1BC045F804A5BEA'>
+            <properties context=''>
+              <relation connection='textscan.1odxoq714bf2bk13qfjzo1s86d3c' name='offVSdef.csv' table='[offVSdef#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='G_Diff' ordinal='1' />
+                  <column datatype='integer' name='A_Diff' ordinal='2' />
+                  <column datatype='integer' name='P_Diff' ordinal='3' />
+                  <column datatype='integer' name='PIM_Diff' ordinal='4' />
+                  <column datatype='integer' name='HITS_Diff' ordinal='5' />
+                  <column datatype='integer' name='+/-_Diff' ordinal='6' />
+                  <column datatype='integer' name='BS_Diff' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='defense' inline='true' name='federated.0yiwvcm03poqy71f6ov0d0hhojo9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='defense' name='textscan.0bl3ysl1uw896r11gtjdg0veq5ve'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='defense.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0bl3ysl1uw896r11gtjdg0veq5ve' name='defense.csv' table='[defense#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='PIM_2017' ordinal='1' />
+            <column datatype='integer' name='+/-_2017' ordinal='2' />
+            <column datatype='integer' name='HITS_2017' ordinal='3' />
+            <column datatype='integer' name='BS_2017' ordinal='4' />
+            <column datatype='real' name='TotIce_2017' ordinal='5' />
+            <column datatype='integer' name='PIM_2018' ordinal='6' />
+            <column datatype='integer' name='+/-_2018' ordinal='7' />
+            <column datatype='integer' name='HITS_2018' ordinal='8' />
+            <column datatype='integer' name='BS_2018' ordinal='9' />
+            <column datatype='real' name='TotIce_2018' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0bl3ysl1uw896r11gtjdg0veq5ve' name='defense.csv' table='[defense#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='PIM_2017' ordinal='1' />
+            <column datatype='integer' name='+/-_2017' ordinal='2' />
+            <column datatype='integer' name='HITS_2017' ordinal='3' />
+            <column datatype='integer' name='BS_2017' ordinal='4' />
+            <column datatype='real' name='TotIce_2017' ordinal='5' />
+            <column datatype='integer' name='PIM_2018' ordinal='6' />
+            <column datatype='integer' name='+/-_2018' ordinal='7' />
+            <column datatype='integer' name='HITS_2018' ordinal='8' />
+            <column datatype='integer' name='BS_2018' ordinal='9' />
+            <column datatype='real' name='TotIce_2018' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[defense.csv_207549797F564B8EB465A7483AD3B922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PIM_2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PIM_2017]</local-name>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias>PIM_2017</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[defense.csv_207549797F564B8EB465A7483AD3B922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>+/-_2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[+/-_2017]</local-name>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias>+/-_2017</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[defense.csv_207549797F564B8EB465A7483AD3B922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HITS_2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HITS_2017]</local-name>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias>HITS_2017</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[defense.csv_207549797F564B8EB465A7483AD3B922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BS_2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BS_2017]</local-name>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias>BS_2017</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[defense.csv_207549797F564B8EB465A7483AD3B922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotIce_2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotIce_2017]</local-name>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias>TotIce_2017</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[defense.csv_207549797F564B8EB465A7483AD3B922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PIM_2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PIM_2018]</local-name>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias>PIM_2018</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[defense.csv_207549797F564B8EB465A7483AD3B922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>+/-_2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[+/-_2018]</local-name>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias>+/-_2018</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[defense.csv_207549797F564B8EB465A7483AD3B922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HITS_2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HITS_2018]</local-name>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias>HITS_2018</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[defense.csv_207549797F564B8EB465A7483AD3B922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BS_2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BS_2018]</local-name>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias>BS_2018</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[defense.csv_207549797F564B8EB465A7483AD3B922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotIce_2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotIce_2018]</local-name>
+            <parent-name>[defense.csv]</parent-name>
+            <remote-alias>TotIce_2018</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[defense.csv_207549797F564B8EB465A7483AD3B922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='+/- 2017' datatype='integer' name='[+/-_2017]' role='measure' type='quantitative' />
+      <column caption='+/- 2018' datatype='integer' name='[+/-_2018]' role='measure' type='quantitative' />
+      <column caption='Bs 2017' datatype='integer' name='[BS_2017]' role='measure' type='quantitative' />
+      <column caption='Bs 2018' datatype='integer' name='[BS_2018]' role='measure' type='quantitative' />
+      <column caption='Alphabetical Index' datatype='integer' name='[F1]' role='measure' type='quantitative' />
+      <column caption='Hits 2017' datatype='integer' name='[HITS_2017]' role='measure' type='quantitative' />
+      <column caption='Hits 2018' datatype='integer' name='[HITS_2018]' role='measure' type='quantitative' />
+      <column caption='Pim 2017' datatype='integer' name='[PIM_2017]' role='measure' type='quantitative' />
+      <column caption='Pim 2018' datatype='integer' name='[PIM_2018]' role='measure' type='quantitative' />
+      <column caption='TotIce 2017' datatype='real' name='[TotIce_2017]' role='measure' type='quantitative' />
+      <column caption='TotIce 2018' datatype='real' name='[TotIce_2018]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='defense.csv' datatype='table' name='[__tableau_internal_object_id__].[defense.csv_207549797F564B8EB465A7483AD3B922]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='defense.csv' id='defense.csv_207549797F564B8EB465A7483AD3B922'>
+            <properties context=''>
+              <relation connection='textscan.0bl3ysl1uw896r11gtjdg0veq5ve' name='defense.csv' table='[defense#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='PIM_2017' ordinal='1' />
+                  <column datatype='integer' name='+/-_2017' ordinal='2' />
+                  <column datatype='integer' name='HITS_2017' ordinal='3' />
+                  <column datatype='integer' name='BS_2017' ordinal='4' />
+                  <column datatype='real' name='TotIce_2017' ordinal='5' />
+                  <column datatype='integer' name='PIM_2018' ordinal='6' />
+                  <column datatype='integer' name='+/-_2018' ordinal='7' />
+                  <column datatype='integer' name='HITS_2018' ordinal='8' />
+                  <column datatype='integer' name='BS_2018' ordinal='9' />
+                  <column datatype='real' name='TotIce_2018' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='TOIvsP' inline='true' name='federated.1ju6f3a1v76x9z0zmaft019i0ckf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='TOIvsP' name='textscan.13dfqye1trx9gr1bt790p15c7g0a'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='TOIvsP.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.13dfqye1trx9gr1bt790p15c7g0a' name='TOIvsP.csv' table='[TOIvsP#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='Diff in TOI' ordinal='1' />
+            <column datatype='real' name='Diff in P/GP' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.13dfqye1trx9gr1bt790p15c7g0a' name='TOIvsP.csv' table='[TOIvsP#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='Diff in TOI' ordinal='1' />
+            <column datatype='real' name='Diff in P/GP' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[TOIvsP.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[TOIvsP.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsP.csv_136450EAF6B148E796F8507099C7523B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diff in TOI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Diff in TOI]</local-name>
+            <parent-name>[TOIvsP.csv]</parent-name>
+            <remote-alias>Diff in TOI</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsP.csv_136450EAF6B148E796F8507099C7523B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diff in P/GP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Diff in P/GP]</local-name>
+            <parent-name>[TOIvsP.csv]</parent-name>
+            <remote-alias>Diff in P/GP</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsP.csv_136450EAF6B148E796F8507099C7523B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='TOIvsP.csv' datatype='table' name='[__tableau_internal_object_id__].[TOIvsP.csv_136450EAF6B148E796F8507099C7523B]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='TOIvsP.csv' id='TOIvsP.csv_136450EAF6B148E796F8507099C7523B'>
+            <properties context=''>
+              <relation connection='textscan.13dfqye1trx9gr1bt790p15c7g0a' name='TOIvsP.csv' table='[TOIvsP#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='real' name='Diff in TOI' ordinal='1' />
+                  <column datatype='real' name='Diff in P/GP' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='offense' inline='true' name='federated.01tjmfx080qwar136edjc16bmmd2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='offense' name='textscan.0sw4c4h1782ewr1fnewfs1ngrqc6'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='offense.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0sw4c4h1782ewr1fnewfs1ngrqc6' name='offense.csv' table='[offense#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='G_2017' ordinal='1' />
+            <column datatype='integer' name='A_2017' ordinal='2' />
+            <column datatype='integer' name='P_2017' ordinal='3' />
+            <column datatype='real' name='TotIce_2017' ordinal='4' />
+            <column datatype='integer' name='G_2018' ordinal='5' />
+            <column datatype='integer' name='A_2018' ordinal='6' />
+            <column datatype='integer' name='P_2018' ordinal='7' />
+            <column datatype='real' name='TotIce_2018' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0sw4c4h1782ewr1fnewfs1ngrqc6' name='offense.csv' table='[offense#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='G_2017' ordinal='1' />
+            <column datatype='integer' name='A_2017' ordinal='2' />
+            <column datatype='integer' name='P_2017' ordinal='3' />
+            <column datatype='real' name='TotIce_2017' ordinal='4' />
+            <column datatype='integer' name='G_2018' ordinal='5' />
+            <column datatype='integer' name='A_2018' ordinal='6' />
+            <column datatype='integer' name='P_2018' ordinal='7' />
+            <column datatype='real' name='TotIce_2018' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[offense.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[offense.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offense.csv_CAC9A94ECA494B57B962ECA5668C5581]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G_2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G_2017]</local-name>
+            <parent-name>[offense.csv]</parent-name>
+            <remote-alias>G_2017</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offense.csv_CAC9A94ECA494B57B962ECA5668C5581]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A_2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A_2017]</local-name>
+            <parent-name>[offense.csv]</parent-name>
+            <remote-alias>A_2017</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offense.csv_CAC9A94ECA494B57B962ECA5668C5581]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P_2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[P_2017]</local-name>
+            <parent-name>[offense.csv]</parent-name>
+            <remote-alias>P_2017</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offense.csv_CAC9A94ECA494B57B962ECA5668C5581]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotIce_2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotIce_2017]</local-name>
+            <parent-name>[offense.csv]</parent-name>
+            <remote-alias>TotIce_2017</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offense.csv_CAC9A94ECA494B57B962ECA5668C5581]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G_2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G_2018]</local-name>
+            <parent-name>[offense.csv]</parent-name>
+            <remote-alias>G_2018</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offense.csv_CAC9A94ECA494B57B962ECA5668C5581]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A_2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A_2018]</local-name>
+            <parent-name>[offense.csv]</parent-name>
+            <remote-alias>A_2018</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offense.csv_CAC9A94ECA494B57B962ECA5668C5581]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P_2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[P_2018]</local-name>
+            <parent-name>[offense.csv]</parent-name>
+            <remote-alias>P_2018</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offense.csv_CAC9A94ECA494B57B962ECA5668C5581]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotIce_2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotIce_2018]</local-name>
+            <parent-name>[offense.csv]</parent-name>
+            <remote-alias>TotIce_2018</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offense.csv_CAC9A94ECA494B57B962ECA5668C5581]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='A 2017' datatype='integer' name='[A_2017]' role='measure' type='quantitative' />
+      <column caption='A 2018' datatype='integer' name='[A_2018]' role='measure' type='quantitative' />
+      <column caption='Alphabetical Index' datatype='integer' name='[F1]' role='measure' type='quantitative' />
+      <column caption='G 2017' datatype='integer' name='[G_2017]' role='measure' type='quantitative' />
+      <column caption='G 2018' datatype='integer' name='[G_2018]' role='measure' type='quantitative' />
+      <column caption='P 2017' datatype='integer' name='[P_2017]' role='measure' type='quantitative' />
+      <column caption='P 2018' datatype='integer' name='[P_2018]' role='measure' type='quantitative' />
+      <column caption='TotIce 2017' datatype='real' name='[TotIce_2017]' role='measure' type='quantitative' />
+      <column caption='TotIce 2018' datatype='real' name='[TotIce_2018]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='offense.csv' datatype='table' name='[__tableau_internal_object_id__].[offense.csv_CAC9A94ECA494B57B962ECA5668C5581]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='225' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='offense.csv' id='offense.csv_CAC9A94ECA494B57B962ECA5668C5581'>
+            <properties context=''>
+              <relation connection='textscan.0sw4c4h1782ewr1fnewfs1ngrqc6' name='offense.csv' table='[offense#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='G_2017' ordinal='1' />
+                  <column datatype='integer' name='A_2017' ordinal='2' />
+                  <column datatype='integer' name='P_2017' ordinal='3' />
+                  <column datatype='real' name='TotIce_2017' ordinal='4' />
+                  <column datatype='integer' name='G_2018' ordinal='5' />
+                  <column datatype='integer' name='A_2018' ordinal='6' />
+                  <column datatype='integer' name='P_2018' ordinal='7' />
+                  <column datatype='real' name='TotIce_2018' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='offVSdefCorr' inline='true' name='federated.1cy4f2r1usr7hy14jtzru1q6tl0k' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='offVSdefCorr' name='textscan.0d3hpdu1txxl191dsbmia08rljxe'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='offVSdefCorr.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0d3hpdu1txxl191dsbmia08rljxe' name='offVSdefCorr.csv' table='[offVSdefCorr#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='G_Diff' ordinal='1' />
+            <column datatype='real' name='A_Diff' ordinal='2' />
+            <column datatype='real' name='P_Diff' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0d3hpdu1txxl191dsbmia08rljxe' name='offVSdefCorr.csv' table='[offVSdefCorr#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='G_Diff' ordinal='1' />
+            <column datatype='real' name='A_Diff' ordinal='2' />
+            <column datatype='real' name='P_Diff' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_703D1AC6A0404F72B08012B237522E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[G_Diff]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>G_Diff</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_703D1AC6A0404F72B08012B237522E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[A_Diff]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>A_Diff</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_703D1AC6A0404F72B08012B237522E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[P_Diff]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>P_Diff</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_703D1AC6A0404F72B08012B237522E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='A Diff' datatype='real' name='[A_Diff]' role='measure' type='quantitative' />
+      <column caption='G Diff' datatype='real' name='[G_Diff]' role='measure' type='quantitative' />
+      <column caption='P Diff' datatype='real' name='[P_Diff]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='offVSdefCorr.csv' datatype='table' name='[__tableau_internal_object_id__].[offVSdefCorr.csv_703D1AC6A0404F72B08012B237522E94]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='offVSdefCorr.csv' id='offVSdefCorr.csv_703D1AC6A0404F72B08012B237522E94'>
+            <properties context=''>
+              <relation connection='textscan.0d3hpdu1txxl191dsbmia08rljxe' name='offVSdefCorr.csv' table='[offVSdefCorr#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='real' name='G_Diff' ordinal='1' />
+                  <column datatype='real' name='A_Diff' ordinal='2' />
+                  <column datatype='real' name='P_Diff' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='offVSdefCorr (2)' inline='true' name='federated.0iiiw1k1lispar1e7m0ze17ursmj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='offVSdefCorr' name='textscan.12ff9740t0xa4d111m3ug0ezwh22'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed/offVSdefCorr.csv' dataRefreshTime='' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='/var/folders/5r/l3chx71j51525snltj8yxcg80000gn/T/tableau-temp/03nax621bhn4s81fwdt4t0ima8ex/offVSdefCorr.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.12ff9740t0xa4d111m3ug0ezwh22' name='offVSdefCorr.csv' table='[offVSdefCorr#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:D8:no:A1:D8:1' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='G_Diff' ordinal='1' />
+            <column datatype='real' name='A_Diff' ordinal='2' />
+            <column datatype='real' name='P_Diff' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.12ff9740t0xa4d111m3ug0ezwh22' name='offVSdefCorr.csv' table='[offVSdefCorr#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:D8:no:A1:D8:1' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='G_Diff' ordinal='1' />
+            <column datatype='real' name='A_Diff' ordinal='2' />
+            <column datatype='real' name='P_Diff' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H8:no:A1:H8:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>49</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_5F178ABDD39047C2A802DF51EFD69D64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[G_Diff]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>G_Diff</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_5F178ABDD39047C2A802DF51EFD69D64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[A_Diff]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>A_Diff</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_5F178ABDD39047C2A802DF51EFD69D64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[P_Diff]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>P_Diff</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_5F178ABDD39047C2A802DF51EFD69D64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PIM_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PIM_Diff]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>PIM_Diff</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_5F178ABDD39047C2A802DF51EFD69D64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HITS_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HITS_Diff]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>HITS_Diff</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_5F178ABDD39047C2A802DF51EFD69D64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>+/-_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[+/-_Diff]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>+/-_Diff</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_5F178ABDD39047C2A802DF51EFD69D64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BS_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BS_Diff]</local-name>
+            <parent-name>[offVSdefCorr.csv]</parent-name>
+            <remote-alias>BS_Diff</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[offVSdefCorr.csv_5F178ABDD39047C2A802DF51EFD69D64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='A Diff' datatype='real' name='[A_Diff]' role='measure' type='quantitative' />
+      <column caption='G Diff' datatype='real' name='[G_Diff]' role='measure' type='quantitative' />
+      <column caption='P Diff' datatype='real' name='[P_Diff]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='offVSdefCorr.csv' datatype='table' name='[__tableau_internal_object_id__].[offVSdefCorr.csv_5F178ABDD39047C2A802DF51EFD69D64]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='offVSdefCorr.csv' id='offVSdefCorr.csv_5F178ABDD39047C2A802DF51EFD69D64'>
+            <properties context=''>
+              <relation connection='textscan.12ff9740t0xa4d111m3ug0ezwh22' name='offVSdefCorr.csv' table='[offVSdefCorr#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:D8:no:A1:D8:1' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='real' name='G_Diff' ordinal='1' />
+                  <column datatype='real' name='A_Diff' ordinal='2' />
+                  <column datatype='real' name='P_Diff' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='corr' inline='true' name='federated.1bhzbzd04ooq1914knmbz0l0ql07' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='corr' name='textscan.0b48yyc0xq856718p51bv06a4eta'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='corr.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0b48yyc0xq856718p51bv06a4eta' name='corr.csv' table='[corr#csv]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0b48yyc0xq856718p51bv06a4eta' name='corr.csv' table='[corr#csv]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[corr.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[corr.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[corr.csv_F85AF4EFE38C4DA88E2AA5463FF0B8E7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[corr.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[corr.csv_F85AF4EFE38C4DA88E2AA5463FF0B8E7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='corr.csv' datatype='table' name='[__tableau_internal_object_id__].[corr.csv_F85AF4EFE38C4DA88E2AA5463FF0B8E7]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='corr.csv' id='corr.csv_F85AF4EFE38C4DA88E2AA5463FF0B8E7'>
+            <properties context=''>
+              <relation connection='textscan.0b48yyc0xq856718p51bv06a4eta' name='corr.csv' table='[corr#csv]' type='table'>
+                <columns character-set='UTF-8' header='no' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='real' name='F2' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='ChangeInPperGP' inline='true' name='federated.15o4vez1nnwbr614bcvaf125kdmx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ChangeInPperGP' name='textscan.1u3kzcc1ssc6r51bhrv2f00cpc4j'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='ChangeInPperGP.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1u3kzcc1ssc6r51bhrv2f00cpc4j' name='ChangeInPperGP.csv' table='[ChangeInPperGP#csv]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1u3kzcc1ssc6r51bhrv2f00cpc4j' name='ChangeInPperGP.csv' table='[ChangeInPperGP#csv]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ChangeInPperGP.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[ChangeInPperGP.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[ChangeInPperGP.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='P/GP' datatype='string' name='[F2]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='ChangeInPperGP.csv' datatype='table' name='[__tableau_internal_object_id__].[ChangeInPperGP.csv_A06C6DEE8CE24334B00592142A5210BB]' role='measure' type='quantitative' />
+      <column-instance column='[F2]' derivation='None' name='[none:F2:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-hidden-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:F2:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Increase&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Decrease&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ChangeInPperGP.csv' id='ChangeInPperGP.csv_A06C6DEE8CE24334B00592142A5210BB'>
+            <properties context=''>
+              <relation connection='textscan.1u3kzcc1ssc6r51bhrv2f00cpc4j' name='ChangeInPperGP.csv' table='[ChangeInPperGP#csv]' type='table'>
+                <columns character-set='UTF-8' header='no' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='TOIvsStats' inline='true' name='federated.13r9bum1hh2c6m1brfqjt0khhuqs' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='TOIvsStats' name='textscan.0ag9qxp1vb0ksc1fel4dz0bv58ff'>
+            <connection class='textscan' directory='/Users/rickydoucette/Desktop/Year 4 UBCO/Term 2/Data 301/project-group-group22/data/processed' filename='TOIvsStats.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0ag9qxp1vb0ksc1fel4dz0bv58ff' name='TOIvsStats.csv' table='[TOIvsStats#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='TOI_Diff' ordinal='1' />
+            <column datatype='real' name='P/GP_Diff' ordinal='2' />
+            <column datatype='real' name='A/GP_Diff' ordinal='3' />
+            <column datatype='real' name='G/GP_Diff' ordinal='4' />
+            <column datatype='real' name='HITS/GP_Diff' ordinal='5' />
+            <column datatype='real' name='PIM/GP_Diff' ordinal='6' />
+            <column datatype='real' name='BS/GP_Diff' ordinal='7' />
+            <column datatype='integer' name='+/-_Diff' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0ag9qxp1vb0ksc1fel4dz0bv58ff' name='TOIvsStats.csv' table='[TOIvsStats#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='TOI_Diff' ordinal='1' />
+            <column datatype='real' name='P/GP_Diff' ordinal='2' />
+            <column datatype='real' name='A/GP_Diff' ordinal='3' />
+            <column datatype='real' name='G/GP_Diff' ordinal='4' />
+            <column datatype='real' name='HITS/GP_Diff' ordinal='5' />
+            <column datatype='real' name='PIM/GP_Diff' ordinal='6' />
+            <column datatype='real' name='BS/GP_Diff' ordinal='7' />
+            <column datatype='integer' name='+/-_Diff' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[TOIvsStats.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[TOIvsStats.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsStats.csv_163ABFB7820B46EDA2B78C00CE6A56CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOI_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOI_Diff]</local-name>
+            <parent-name>[TOIvsStats.csv]</parent-name>
+            <remote-alias>TOI_Diff</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsStats.csv_163ABFB7820B46EDA2B78C00CE6A56CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P/GP_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[P/GP_Diff]</local-name>
+            <parent-name>[TOIvsStats.csv]</parent-name>
+            <remote-alias>P/GP_Diff</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsStats.csv_163ABFB7820B46EDA2B78C00CE6A56CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A/GP_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[A/GP_Diff]</local-name>
+            <parent-name>[TOIvsStats.csv]</parent-name>
+            <remote-alias>A/GP_Diff</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsStats.csv_163ABFB7820B46EDA2B78C00CE6A56CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G/GP_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[G/GP_Diff]</local-name>
+            <parent-name>[TOIvsStats.csv]</parent-name>
+            <remote-alias>G/GP_Diff</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsStats.csv_163ABFB7820B46EDA2B78C00CE6A56CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HITS/GP_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HITS/GP_Diff]</local-name>
+            <parent-name>[TOIvsStats.csv]</parent-name>
+            <remote-alias>HITS/GP_Diff</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsStats.csv_163ABFB7820B46EDA2B78C00CE6A56CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PIM/GP_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PIM/GP_Diff]</local-name>
+            <parent-name>[TOIvsStats.csv]</parent-name>
+            <remote-alias>PIM/GP_Diff</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsStats.csv_163ABFB7820B46EDA2B78C00CE6A56CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BS/GP_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BS/GP_Diff]</local-name>
+            <parent-name>[TOIvsStats.csv]</parent-name>
+            <remote-alias>BS/GP_Diff</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsStats.csv_163ABFB7820B46EDA2B78C00CE6A56CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>+/-_Diff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[+/-_Diff]</local-name>
+            <parent-name>[TOIvsStats.csv]</parent-name>
+            <remote-alias>+/-_Diff</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOIvsStats.csv_163ABFB7820B46EDA2B78C00CE6A56CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='+/- Diff' datatype='integer' name='[+/-_Diff]' role='measure' type='quantitative' />
+      <column caption='A/GP Diff' datatype='real' name='[A/GP_Diff]' role='measure' type='quantitative' />
+      <column caption='BS/GP Diff' datatype='real' name='[BS/GP_Diff]' role='measure' type='quantitative' />
+      <column caption='G/GP Diff' datatype='real' name='[G/GP_Diff]' role='measure' type='quantitative' />
+      <column caption='HITS/GP Diff' datatype='real' name='[HITS/GP_Diff]' role='measure' type='quantitative' />
+      <column caption='P/GP Diff' datatype='real' name='[P/GP_Diff]' role='measure' type='quantitative' />
+      <column caption='PIM/GP Diff' datatype='real' name='[PIM/GP_Diff]' role='measure' type='quantitative' />
+      <column caption='TOI Diff' datatype='real' name='[TOI_Diff]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='TOIvsStats.csv' datatype='table' name='[__tableau_internal_object_id__].[TOIvsStats.csv_163ABFB7820B46EDA2B78C00CE6A56CB]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='TOIvsStats.csv' id='TOIvsStats.csv_163ABFB7820B46EDA2B78C00CE6A56CB'>
+            <properties context=''>
+              <relation connection='textscan.0ag9qxp1vb0ksc1fel4dz0bv58ff' name='TOIvsStats.csv' table='[TOIvsStats#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='real' name='TOI_Diff' ordinal='1' />
+                  <column datatype='real' name='P/GP_Diff' ordinal='2' />
+                  <column datatype='real' name='A/GP_Diff' ordinal='3' />
+                  <column datatype='real' name='G/GP_Diff' ordinal='4' />
+                  <column datatype='real' name='HITS/GP_Diff' ordinal='5' />
+                  <column datatype='real' name='PIM/GP_Diff' ordinal='6' />
+                  <column datatype='real' name='BS/GP_Diff' ordinal='7' />
+                  <column datatype='integer' name='+/-_Diff' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='All Stats Difference in Years vs TOI Difference'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>All Stats Difference in Years vs TOI Difference</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='TOIvsStats' name='federated.13r9bum1hh2c6m1brfqjt0khhuqs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13r9bum1hh2c6m1brfqjt0khhuqs'>
+            <column caption='+/- Diff' datatype='integer' name='[+/-_Diff]' role='measure' type='quantitative' />
+            <column caption='A/GP Diff' datatype='real' name='[A/GP_Diff]' role='measure' type='quantitative' />
+            <column caption='BS/GP Diff' datatype='real' name='[BS/GP_Diff]' role='measure' type='quantitative' />
+            <column caption='G/GP Diff' datatype='real' name='[G/GP_Diff]' role='measure' type='quantitative' />
+            <column caption='HITS/GP Diff' datatype='real' name='[HITS/GP_Diff]' role='measure' type='quantitative' />
+            <column caption='P/GP Diff' datatype='real' name='[P/GP_Diff]' role='measure' type='quantitative' />
+            <column caption='PIM/GP Diff' datatype='real' name='[PIM/GP_Diff]' role='measure' type='quantitative' />
+            <column caption='TOI Diff' datatype='real' name='[TOI_Diff]' role='measure' type='quantitative' />
+            <column-instance column='[+/-_Diff]' derivation='Sum' name='[sum:+/-_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A/GP_Diff]' derivation='Sum' name='[sum:A/GP_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[BS/GP_Diff]' derivation='Sum' name='[sum:BS/GP_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[G/GP_Diff]' derivation='Sum' name='[sum:G/GP_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[HITS/GP_Diff]' derivation='Sum' name='[sum:HITS/GP_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[P/GP_Diff]' derivation='Sum' name='[sum:P/GP_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PIM/GP_Diff]' derivation='Sum' name='[sum:PIM/GP_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TOI_Diff]' derivation='Sum' name='[sum:TOI_Diff:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:P/GP_Diff:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#9e3d22</color>
+                <color>#ad4523</color>
+                <color>#bc4d23</color>
+                <color>#cb5522</color>
+                <color>#d95e21</color>
+                <color>#e76820</color>
+                <color>#ee7725</color>
+                <color>#f58a30</color>
+                <color>#fa9e3f</color>
+                <color>#fdb053</color>
+                <color>#ffc171</color>
+                <color>#d9d5c9</color>
+                <color>#c2d3c0</color>
+                <color>#accda8</color>
+                <color>#97c891</color>
+                <color>#83c27b</color>
+                <color>#70bd67</color>
+                <color>#5eb753</color>
+                <color>#4db240</color>
+                <color>#3cac2f</color>
+                <color>#2da71e</color>
+                <color>#1ea10e</color>
+                <color>#119c00</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:G/GP_Diff:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#9e3d22</color>
+                <color>#ad4523</color>
+                <color>#bc4d23</color>
+                <color>#cb5522</color>
+                <color>#d95e21</color>
+                <color>#e76820</color>
+                <color>#ee7725</color>
+                <color>#f58a30</color>
+                <color>#fa9e3f</color>
+                <color>#fdb053</color>
+                <color>#ffc171</color>
+                <color>#d9d5c9</color>
+                <color>#c1d3c0</color>
+                <color>#abcda8</color>
+                <color>#96c891</color>
+                <color>#82c27b</color>
+                <color>#6ebd67</color>
+                <color>#5cb753</color>
+                <color>#4ab240</color>
+                <color>#3aac2f</color>
+                <color>#2aa71e</color>
+                <color>#1ba10e</color>
+                <color>#0e9c00</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:A/GP_Diff:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#9e3d22</color>
+                <color>#ad4523</color>
+                <color>#bc4d23</color>
+                <color>#cb5522</color>
+                <color>#d95e21</color>
+                <color>#e76820</color>
+                <color>#ee7725</color>
+                <color>#f58a30</color>
+                <color>#fa9e3f</color>
+                <color>#fdb053</color>
+                <color>#ffc171</color>
+                <color>#d9d5c9</color>
+                <color>#c3d3c0</color>
+                <color>#aecda8</color>
+                <color>#9ac891</color>
+                <color>#87c27b</color>
+                <color>#75bd67</color>
+                <color>#63b753</color>
+                <color>#52b240</color>
+                <color>#43ac2f</color>
+                <color>#34a71e</color>
+                <color>#26a10e</color>
+                <color>#199c00</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:+/-_Diff:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#9e3d22</color>
+                <color>#ad4523</color>
+                <color>#bc4d23</color>
+                <color>#cb5522</color>
+                <color>#d95e21</color>
+                <color>#e76820</color>
+                <color>#ee7725</color>
+                <color>#f58a30</color>
+                <color>#fa9e3f</color>
+                <color>#fdb053</color>
+                <color>#ffc171</color>
+                <color>#d9d5c9</color>
+                <color>#c2d3c0</color>
+                <color>#accda8</color>
+                <color>#97c891</color>
+                <color>#83c27b</color>
+                <color>#70bd67</color>
+                <color>#5db753</color>
+                <color>#4cb240</color>
+                <color>#3bac2f</color>
+                <color>#2ca71e</color>
+                <color>#1da10e</color>
+                <color>#109c00</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:HITS/GP_Diff:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#9e3d22</color>
+                <color>#ad4523</color>
+                <color>#bc4d23</color>
+                <color>#cb5522</color>
+                <color>#d95e21</color>
+                <color>#e76820</color>
+                <color>#ee7725</color>
+                <color>#f58a30</color>
+                <color>#fa9e3f</color>
+                <color>#fdb053</color>
+                <color>#ffc171</color>
+                <color>#d9d5c9</color>
+                <color>#c3d3c0</color>
+                <color>#aecda8</color>
+                <color>#9ac891</color>
+                <color>#86c27b</color>
+                <color>#74bd67</color>
+                <color>#62b753</color>
+                <color>#52b240</color>
+                <color>#42ac2f</color>
+                <color>#33a71e</color>
+                <color>#25a10e</color>
+                <color>#189c00</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:BS/GP_Diff:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#9e3d22</color>
+                <color>#ad4523</color>
+                <color>#bc4d23</color>
+                <color>#cb5522</color>
+                <color>#d95e21</color>
+                <color>#e76820</color>
+                <color>#ee7725</color>
+                <color>#f58a30</color>
+                <color>#fa9e3f</color>
+                <color>#fdb053</color>
+                <color>#ffc171</color>
+                <color>#d9d5c9</color>
+                <color>#c2d3c0</color>
+                <color>#accda9</color>
+                <color>#98c892</color>
+                <color>#84c27d</color>
+                <color>#71bd68</color>
+                <color>#5fb755</color>
+                <color>#4db242</color>
+                <color>#3dac31</color>
+                <color>#2ea721</color>
+                <color>#1fa111</color>
+                <color>#129c03</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:PIM/GP_Diff:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#9e3d22</color>
+                <color>#ad4523</color>
+                <color>#bc4d23</color>
+                <color>#cb5522</color>
+                <color>#d95e21</color>
+                <color>#e76820</color>
+                <color>#ee7725</color>
+                <color>#f58a30</color>
+                <color>#fa9e3f</color>
+                <color>#fdb053</color>
+                <color>#ffc171</color>
+                <color>#d9d5c9</color>
+                <color>#c1d3c0</color>
+                <color>#abcda8</color>
+                <color>#96c891</color>
+                <color>#82c27b</color>
+                <color>#6ebd67</color>
+                <color>#5cb753</color>
+                <color>#4ab240</color>
+                <color>#3aac2f</color>
+                <color>#2aa71e</color>
+                <color>#1ba10e</color>
+                <color>#0e9c00</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='913' />
+                <format attr='maxwidth' value='913' />
+                <format attr='minheight' value='100' />
+                <format attr='maxheight' value='100' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:+/-_Diff:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:+/-_Diff:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:A/GP_Diff:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:A/GP_Diff:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:G/GP_Diff:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:G/GP_Diff:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:P/GP_Diff:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:P/GP_Diff:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:HITS/GP_Diff:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:HITS/GP_Diff:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:BS/GP_Diff:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:BS/GP_Diff:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:PIM/GP_Diff:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:PIM/GP_Diff:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>([federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:P/GP_Diff:qk] + ([federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:G/GP_Diff:qk] + ([federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:A/GP_Diff:qk] + ([federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:+/-_Diff:qk] + ([federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:HITS/GP_Diff:qk] + ([federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:BS/GP_Diff:qk] + [federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:PIM/GP_Diff:qk]))))))</rows>
+        <cols>[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:TOI_Diff:qk]</cols>
+      </table>
+      <simple-id uuid='{C5D8ABB1-3664-4B0E-8167-2DC184D28317}' />
+    </worksheet>
+    <worksheet name='Change in P/GP for players who had an increase in TOI between seasons'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Change in P/GP for players who had an increase in TOI between seasons</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ChangeInPperGP' name='federated.15o4vez1nnwbr614bcvaf125kdmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15o4vez1nnwbr614bcvaf125kdmx'>
+            <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+            <column caption='P/GP' datatype='string' name='[F2]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='CountD' name='[ctd:F1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2]' derivation='None' name='[none:F2:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15o4vez1nnwbr614bcvaf125kdmx].[none:F2:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:F2:nk]' />
+              <groupfilter function='member' level='[none:F2:nk]' member='&quot;P/GP&quot;' />
+            </groupfilter>
+          </filter>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.15o4vez1nnwbr614bcvaf125kdmx].[ctd:F1:qk]' scope='rows' value='Count' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.15o4vez1nnwbr614bcvaf125kdmx].[none:F2:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.15o4vez1nnwbr614bcvaf125kdmx].[ctd:F1:qk]</rows>
+        <cols>[federated.15o4vez1nnwbr614bcvaf125kdmx].[none:F2:nk]</cols>
+      </table>
+      <simple-id uuid='{BC82A070-97B6-498D-8E4F-5CC841C8FF5E}' />
+    </worksheet>
+    <worksheet name='Difference in TOI vs Difference in P/GP'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Difference in TOI vs Difference in P/GP</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='TOIvsP' name='federated.1ju6f3a1v76x9z0zmaft019i0ckf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ju6f3a1v76x9z0zmaft019i0ckf'>
+            <column datatype='real' name='[Diff in P/GP]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Diff in TOI]' role='measure' type='quantitative' />
+            <column-instance column='[Diff in P/GP]' derivation='Sum' name='[sum:Diff in P/GP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Diff in TOI]' derivation='Sum' name='[sum:Diff in TOI:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ju6f3a1v76x9z0zmaft019i0ckf].[sum:Diff in P/GP:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#9e3d22</color>
+                <color>#ad4523</color>
+                <color>#bc4d23</color>
+                <color>#cb5522</color>
+                <color>#d95e21</color>
+                <color>#e76820</color>
+                <color>#ee7725</color>
+                <color>#f58a30</color>
+                <color>#fa9e3f</color>
+                <color>#fdb053</color>
+                <color>#ffc171</color>
+                <color>#d9d5c9</color>
+                <color>#c1d3c0</color>
+                <color>#abcda9</color>
+                <color>#96c893</color>
+                <color>#81c27e</color>
+                <color>#6ebd69</color>
+                <color>#5bb756</color>
+                <color>#4ab244</color>
+                <color>#39ac33</color>
+                <color>#29a722</color>
+                <color>#1aa113</color>
+                <color>#0d9c05</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ju6f3a1v76x9z0zmaft019i0ckf].[sum:Diff in P/GP:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f9a655' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ju6f3a1v76x9z0zmaft019i0ckf].[sum:Diff in P/GP:qk]</rows>
+        <cols>[federated.1ju6f3a1v76x9z0zmaft019i0ckf].[sum:Diff in TOI:qk]</cols>
+      </table>
+      <simple-id uuid='{C9FC86D3-EA30-411C-8602-FD1801454DC8}' />
+    </worksheet>
+    <worksheet name='Offense vs Deffense Difference Correlation'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Correlation of the Difference in Offensive Stats vs the Difference in Deffensive Stats for Successive Years</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='offVSdef' name='federated.1ddsdjz1634vvp15gy40m0v5rzr4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ddsdjz1634vvp15gy40m0v5rzr4'>
+            <column caption='+/- Diff' datatype='integer' name='[+/-_Diff]' role='measure' type='quantitative' />
+            <column caption='A Diff' datatype='integer' name='[A_Diff]' role='measure' type='quantitative' />
+            <column caption='BS Diff' datatype='integer' name='[BS_Diff]' role='measure' type='quantitative' />
+            <column caption='G Diff' datatype='integer' name='[G_Diff]' role='measure' type='quantitative' />
+            <column caption='HITS Diff' datatype='integer' name='[HITS_Diff]' role='measure' type='quantitative' />
+            <column caption='PIM Diff' datatype='integer' name='[PIM_Diff]' role='measure' type='quantitative' />
+            <column caption='P Diff' datatype='integer' name='[P_Diff]' role='measure' type='quantitative' />
+            <column-instance column='[G_Diff]' derivation='Avg' name='[avg:G_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[+/-_Diff]' derivation='Sum' name='[sum:+/-_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A_Diff]' derivation='Sum' name='[sum:A_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[BS_Diff]' derivation='Sum' name='[sum:BS_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[HITS_Diff]' derivation='Sum' name='[sum:HITS_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PIM_Diff]' derivation='Sum' name='[sum:PIM_Diff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[P_Diff]' derivation='Sum' name='[sum:P_Diff:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ddsdjz1634vvp15gy40m0v5rzr4].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.1ddsdjz1634vvp15gy40m0v5rzr4].[:Measure Names]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='272' />
+                <format attr='maxwidth' value='272' />
+                <format attr='minheight' value='155' />
+                <format attr='maxheight' value='155' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1ddsdjz1634vvp15gy40m0v5rzr4].[avg:G_Diff:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1ddsdjz1634vvp15gy40m0v5rzr4].[sum:A_Diff:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1ddsdjz1634vvp15gy40m0v5rzr4].[sum:P_Diff:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1ddsdjz1634vvp15gy40m0v5rzr4].[sum:+/-_Diff:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='272' />
+                <format attr='maxwidth' value='272' />
+                <format attr='minheight' value='155' />
+                <format attr='maxheight' value='155' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1ddsdjz1634vvp15gy40m0v5rzr4].[sum:+/-_Diff:qk] + ([federated.1ddsdjz1634vvp15gy40m0v5rzr4].[sum:PIM_Diff:qk] + ([federated.1ddsdjz1634vvp15gy40m0v5rzr4].[sum:BS_Diff:qk] + [federated.1ddsdjz1634vvp15gy40m0v5rzr4].[sum:HITS_Diff:qk])))</rows>
+        <cols>([federated.1ddsdjz1634vvp15gy40m0v5rzr4].[sum:+/-_Diff:qk] + ([federated.1ddsdjz1634vvp15gy40m0v5rzr4].[avg:G_Diff:qk] + ([federated.1ddsdjz1634vvp15gy40m0v5rzr4].[sum:A_Diff:qk] + [federated.1ddsdjz1634vvp15gy40m0v5rzr4].[sum:P_Diff:qk])))</cols>
+      </table>
+      <simple-id uuid='{9E339C44-6FF1-4C65-BD42-97EC4FE8C6DE}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='217'>
+    <window class='worksheet' maximized='true' name='Offense vs Deffense Difference Correlation'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8EA485C4-943A-49DA-B1A4-FEB9B2490B2D}' />
+    </window>
+    <window class='worksheet' name='Difference in TOI vs Difference in P/GP'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ju6f3a1v76x9z0zmaft019i0ckf].[sum:Diff in P/GP:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F99E5F1A-C647-4C5A-9FE8-C566269E3BE2}' />
+    </window>
+    <window class='worksheet' name='Change in P/GP for players who had an increase in TOI between seasons'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.15o4vez1nnwbr614bcvaf125kdmx].[none:F2:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{41258981-6169-4DCA-A49F-832DC4B45BB9}' />
+    </window>
+    <window class='worksheet' name='All Stats Difference in Years vs TOI Difference'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:P/GP_Diff:qk]' type='color' />
+            <card pane-specification-id='3' param='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:G/GP_Diff:qk]' type='color' />
+            <card pane-specification-id='2' param='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:A/GP_Diff:qk]' type='color' />
+            <card pane-specification-id='1' param='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:+/-_Diff:qk]' type='color' />
+            <card pane-specification-id='5' param='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:HITS/GP_Diff:qk]' type='color' />
+            <card pane-specification-id='6' param='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:BS/GP_Diff:qk]' type='color' />
+            <card pane-specification-id='7' param='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[sum:PIM/GP_Diff:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C3DEDC97-F65F-45DF-9F18-F2F627185CE7}' />
+    </window>
+  </windows>
+  <_.fcp.ExplainData_AuthorControls.true...explain-data enabled-for-viewer='false' extreme-values-enabled-for-all='false'>
+    <explanation-types>
+      <explanation-type enabled='true' type='number-of-records' />
+      <explanation-type enabled='true' type='average-of-records' />
+      <explanation-type enabled='true' type='aggregated-dimensions' />
+      <explanation-type enabled='true' type='distribution-of-records' />
+      <explanation-type enabled='true' type='unvisualized-measures' />
+      <explanation-type enabled='true' type='extreme-values' />
+      <_.fcp.ExplainData_NullValueExplanation.true...explanation-type enabled='true' type='null-value' />
+      <explanation-type enabled='true' type='tvd-single-value' />
+      <explanation-type enabled='true' type='ad-single-value' />
+    </explanation-types>
+  </_.fcp.ExplainData_AuthorControls.true...explain-data>
+</workbook>
