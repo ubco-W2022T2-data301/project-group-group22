@@ -74,6 +74,8 @@ In this question I set out to explore if a player develops a ego or becomes more
 
 From the two charts above we can determine that there is little to no correlation between players aggression in the next year. This even goes to show that a player may become less aggressive the better they perform on the ice. However the spread on the linear regression is significant and I did not calculate the p-values for the regression lines.
 
+---
+
 ## Summary
 
 From our research questions and data analyses we have been able to show ...
