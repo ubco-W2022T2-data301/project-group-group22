@@ -12,6 +12,10 @@ Our project has been a data analysis on top scoring players of the 2017 and 2018
 
 From our exploratory data analysis, it can be seen that between both years for the top 225 NHL players that remained in the data set, the average points a player had was 53 in 76 games played. That is not even a point per game and what is very interesting about that is how far spread the points are from the minimum to the maximum of those 225 players in the two seasons played. The lowest amount of points any player had that made that top 225 between the two years was 23 points, a little over half of the average. However, the highest anybody had was 128 points! Almost 2.5 times the mean! This speaks to the large skill gap even amongst the players in the most talented hockey league in the world.
 
+We also wanted to explore the relationship between the goals scored in each season and time on ice. We created a facet plot that showed the relationship in both the 2017 season and 2018 season shown below. From this figure we can conclude that there is a negative or no correlation between the number of goals a player scores, and the time their given/spend on the ice.
+
+![EDA Goals vs TOI](images/EDA_Goals_Scored_vs_TOI.png)
+
 ---
 
 ## **Ricky Doucette**
@@ -37,6 +41,31 @@ From this analysis, we can conclude that an increase in a players average time o
 ---
 
 ## **Ryan Tschritter**
+
+### **RQ1: How are the statistics correlated in each season and between both seasons?**
+
+In this question I wanted to get a better understanding of the relations between all the variables and with the variable between seasons. This could have been included in my EDA however I felt compairing within a season and between season was complicated enough to merritt being a research question. The two graphs below shows both parts of my research question, that being the correlation within each season and the correlation between seasons.
+
+![Correlation Matrix Within Season](images/Ryan_Correlation_Matrix.png)
+
+![Correlation Matrix Between Seasons](images/Ryan_Correlation_Matrix2.png)
+
+From the two graphs I created, I think I anwser and explored my research question throughly. The data we we're using showed that there was a high degree of correlation between several of the variables and if we performed a data analysis on those it wouldn't reveal any meaningful trends.
+
+### **RQ2: Will a player with better offensive statistics in 2017 receive more time on ice in the next season? Does the coach give them more time on ice?**
+
+For this research question I descided to compile all the offensive statistic from 2017 into a single statistic by normalizing each value and adding them together. Therefor with 5 statistics I will get a score of 0 to 5 representing a players individual offensive performance in 2017. I've visualized each component of this normalized score in the violin plot shown below and their respective distributions.
+
+![Offensive Performance 2017 Normalized](images/Ryan_RQ2_violin.png)
+
+Following this I performed a linear regresssion on a scatter plot and compaired all the scores to their time on ice. In the second plot on the right it shows how far each point is from the linear regression line and therefor its residual value. 
+
+![Regression vs Time on Ice](images/Ryan_RQ2_Regression.png)
+
+There is a small but clear trend in this data showing that if a player has a higher offensive performance they will get on average slightly higher time on ice in the next year compaired to their peers. It also shows that the players with higher offensive performance don't nessesairly get more time on ice, rather they get a more average quantity.
+
+**RQ3: Does a players positive offensive performance in the previous season lead to more penalty time / body checks in the next season? Do they develop a ego?**
+
 
 ## Summary
 
