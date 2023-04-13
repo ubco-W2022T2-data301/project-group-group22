@@ -1875,7 +1875,10 @@
             <column-instance column='[TOI_Diff]' derivation='Sum' name='[sum:TOI_Diff:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='quantitative' column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[none:+/-_Diff:qk]' included-values='in-range' />
-          <filter class='quantitative' column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[none:A/GP_Diff:qk]' included-values='in-range' />
+          <filter class='quantitative' column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[none:A/GP_Diff:qk]' included-values='in-range'>
+            <min>-0.42599999999999999</min>
+            <max>0.30999999999999994</max>
+          </filter>
           <filter class='quantitative' column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[none:BS/GP_Diff:qk]' included-values='in-range' />
           <filter class='quantitative' column='[federated.13r9bum1hh2c6m1brfqjt0khhuqs].[none:G/GP_Diff:qk]' included-values='in-range'>
             <min>-0.23999999999999999</min>
@@ -2553,8 +2556,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='24' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='26' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='22' is-fixed='true' name='Offense vs Deffense Difference Correlation' w='41300' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2660,7 +2663,7 @@
       <simple-id uuid='{C68A5B3B-40B1-4ACF-91FC-B50C051834B2}' />
     </dashboard>
   </dashboards>
-  <windows pres-mode='true' source-height='218'>
+  <windows source-height='218'>
     <window class='worksheet' name='Offense vs Deffense Difference Correlation'>
       <cards>
         <edge name='left'>
