@@ -38,7 +38,23 @@ From this analysis, we can conclude that an increase in a players average time o
 
 ## **Renat Rezyapov**
 
-add renats part here...
+### **RQ1: What performance statistics show significant correlations? What is the correlation between TOI & shots and goals, assists, and points?**
+
+In order to, a structured data analysis approach was adopted as followed:
+
+Firstly, I constructed a merged dataframe, which contained relevant parameters for both seasons. Next, I investigrated the relationships between different parameters through EDA and by using statistical .corr() and .describe() functions, as well as tried to establish whether there are possible significant correlations between the parameters. After completing the EDA, it was clear that the most intersting parameters to look at would be the relationshps between Time on Ice in 2017 and goals, points, and assists in 2018.
+
+![Time on Ice 2017 vs. Goals, Points, and Assists 2018](images/renat_plot1)
+
+I thought it would also be intersting to investigate whether any correlation can be established between shots taken in 2017 and points, goals, and assists in the consecutive season. In order to answer those questions, I plotted the said parameters against each other together with a trend line and investigated the graphs for possible correlations between the said parameters.
+
+![Shots 2017 vs. Goals, Points, and Assists 2018](images/images/renat_plot2)
+
+### **RQ2: Which players showed the most improvement between the 2017 and 2018 seasons? Who are the top 10 players in terms of goals, assists, and points?**
+
+To answer this question, I created new columns which calculated percent change in assists, goals, and points. This would allow to see how much a player has improved from last year. Next, I found the top scorers in terms of goals, assists, and points and exported the top ten for each together with the percent improved column. Now, we can load this data into Tableau and have a nice plot of the top 10 players by each parameter.
+
+![Top 10 players by goals, assists and points](images/images/renat_plot3)
 
 ---
 
@@ -78,4 +94,8 @@ From the two charts above we can determine that there is little to no correlatio
 
 ## Summary
 
-From our research questions and data analyses we have been able to show ...
+From our research questions and data analyses we have been able to show the correlation between various parameters of NHL statistics. The key findings include the fact that the average points scored by a player in our dataset was 53 in 76 games, highlighting a significant skill gap between the highest and lowest performing players. The skill gap was also evident in the difference between the maximum (128 points) and minimum (23 points) scores among the top 225 players. 
+Surprisingly, the research showed no significant correlation between the number of goals a player scored and their time on ice, as evident in the compound plot analysis. Moreover, an increase in time on ice per game for a successive season did not significantly impact a player's defensive performance, but had a positive effect on their offensive statistics, particularly points per game played.
+Lastly, we found out that a player's positive offensive performance in the previous season did not lead to more penalty time or body checks in the next season, indicating that there is no strong relationship between a player's performance and their level of aggression.
+Overall, the research provided valuable insights into the correlations between various performance statistics in the NHL and their impact on players' overall performance.
+
