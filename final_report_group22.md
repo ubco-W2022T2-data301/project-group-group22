@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Our project has been a data analysis on top scoring players of the 2017 and 2018 NHL seasons. We looked at all the statistics of the top 250 players in points from the 2017 NHL season, and the top 300 players in points from the 2018 NHL season. We kept those players who were in the top 250 from 2017 as well as the top 300 from 2018 and that left us with 225 players to work with for our data set. Due to some of us having a background in hockey, this was an amusing data set for us to have formed and analyzing it made it feel like a lot less work when we had some sort of interest in the topic. The project was simply to see whether there were correlations between certain statistics and others or between succesive NHL seasons for the leagues best players.
+Our project has been a data analysis on the top scoring players of the 2017 and 2018 NHL seasons. We looked at all the statistics of the top 250 players in points from the 2017 NHL season, and the top 300 players in points from the 2018 NHL season. We kept those players who were in the top 250 from 2017 as well as the top 300 from 2018 and that left us with 225 players to work with for our data set. Due to some of us having a background in hockey, this was an amusing data set for us to have formed and analyzing it made it feel like a lot less work when we had some sort of interest in the topic. The project was simply to see whether there were correlations between certain statistics and others or between succesive NHL seasons for the league's best players.
 
 ---
 
@@ -10,7 +10,7 @@ Our project has been a data analysis on top scoring players of the 2017 and 2018
 
 ![EDA](images/EDA_of_stats.png)
 
-From our exploratory data analysis, it can be seen that between both years for the top 225 NHL players that remained in the data set, the average points a player had was 53 in 76 games played. That is not even a point per game and what is very interesting about that is how far spread the points are from the minimum to the maximum of those 225 players in the two seasons played. The lowest amount of points any player had that made that top 225 between the two years was 23 points, a little over half of the average. However, the highest anybody had was 128 points! Almost 2.5 times the mean! This speaks to the large skill gap even amongst the players in the most talented hockey league in the world.
+From our exploratory data analysis, it can be seen that between both years for the top 225 NHL players that remained in the data set, the average points a player had was 53 in 76 games played. That is not even a point per game. What is very interesting about that is how far spread the points are from the minimum to the maximum of those 225 players in the two seasons played. The lowest amount of points any player had that made that top 225 between the two years was 23 points, less than half of the average. However, the highest anybody had was 128 points! Almost 2.5 times the mean! This speaks to the large skill gap even amongst the top players in the most talented hockey league in the world.
 
 We also wanted to explore the relationship between the goals scored in each season and time on ice. We created a facet plot that showed the relationship in both the 2017 season and 2018 season shown below. From this figure we can conclude that there is a negative or no correlation between the number of goals a player scores, and the time their given/spend on the ice.
 
