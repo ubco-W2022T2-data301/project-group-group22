@@ -60,28 +60,6 @@ To answer this question, I created new columns which calculated percent change i
 
 ## **Ryan Tschritter**
 
-### **RQ1: How are the statistics correlated in each season and between both seasons?**
-
-In this question I wanted to get a better understanding of the relations between all the variables and with the variable between seasons. This could have been included in my EDA however I felt compairing within a season and between season was complicated enough to merritt being a research question. The two graphs below shows both parts of my research question, that being the correlation within each season and the correlation between seasons.
-
-![Correlation Matrix Within Season](images/Ryan_Correlation_Matrix.png)
-
-![Correlation Matrix Between Seasons](images/Ryan_Correlation_Matrix2.png)
-
-From the two graphs I created, I think I answer and explored my research question thoroughly. The data we we're using showed that there was a high degree of correlation between several of the variables and if we performed a data analysis on those it wouldn't reveal any meaningful trends.
-
-### **RQ2: Will a player with better offensive statistics in 2017 receive more time on ice in the next season? Does the coach give them more time on ice?**
-
-For this research question I decided  to compile all the offensive statistic from 2017 into a single statistic by normalizing each value and adding them together. Therefor with 5 statistics I will get a score of 0 to 5 representing a players individual offensive performance in 2017. I've visualized each component of this normalized score in the violin plot shown below and their respective distributions.
-
-![Offensive Performance 2017 Normalized](images/Ryan_RQ2_violin.png)
-
-Following this I performed a linear regression on a scatter plot and compared all the scores to their time on ice. In the second plot on the right it shows how far each point is from the linear regression line and therefor its residual value.
-
-![Regression vs Time on Ice](images/Ryan_RQ2_Regression.png)
-
-There is a small but clear trend in this data showing that if a player has a higher offensive performance they will get on average slightly higher time on ice in the next year compared to their peers. It also shows that the players with higher offensive performance don't necessarily get more time on ice, rather they get a more average quantity. From the graphs I think we can say that the coach may be giving players that perform better slightly more time on ice, but the trend is small.
-
 **RQ3: Does a players positive offensive performance in the previous season lead to more penalty time / body checks in the next season? Do they develop a ego?**
 
 In this question I set out to explore if a player develops a ego or becomes more aggressive when they perform better. Taking the offensive data from 2017 and comparing it to the penalty minutes and the number of body checks in the next year, we can determine if players become more aggressive when they get more experience. This analysis used the same normalized offensive data that was used in question 2.
