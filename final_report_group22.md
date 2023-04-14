@@ -38,7 +38,7 @@ From this analysis, we can conclude that an increase in a players average time o
 
 ## **Renat Rezyapov**
 
-### **RQ1: What performance statistics show significant correlations? What is the correlation between TOI & shots and goals, assists, and points?**
+### **RQ: What performance statistics show significant correlations? What is the correlation between TOI & shots and goals, assists, and points? **
 
 In order to, a structured data analysis approach was adopted as followed:
 
@@ -50,11 +50,7 @@ I thought it would also be intersting to investigate whether any correlation can
 
 ![Shots 2017 vs. Goals, Points, and Assists 2018](images/renat_plot2.png)
 
-### **RQ2: Which players showed the most improvement between the 2017 and 2018 seasons? Who are the top 10 players in terms of goals, assists, and points?**
 
-To answer this question, I created new columns which calculated percent change in assists, goals, and points. This would allow to see how much a player has improved from last year. Next, I found the top scorers in terms of goals, assists, and points and exported the top ten for each with the percent improved column. Now, we can load this data into Tableau and have a nice plot of the top 10 players by each parameter.
-
-![Top 10 players by goals, assists and points](images/renat_plot3.png)
 
 ---
 
